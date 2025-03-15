@@ -9,3 +9,11 @@ The `add` command installs dependencies to a project. It adds `dependencies` to 
 
 ### --script
 With the `--script` option, `uv` manages dependencies at the script level by adding metadata-comments to the `.py` file.
+
+## `uvx`
+`uvx` can interactively run python commands like black and ruff without needing to install the tool packages.
+
+```
+uvx black --help
+uvx black .
+```
