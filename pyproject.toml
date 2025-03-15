@@ -1,7 +1,7 @@
 [project]
 name = "uviolet"
 version = "0.1.0"
-description = "Add your description here"
+description = "Learn uv, a project from Astral for managing python projects and much more."
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
